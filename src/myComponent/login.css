@@ -1,0 +1,225 @@
+.nevbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0b132b;
+    height: 45px;
+    position: fixed;
+    z-index: 99;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    gap: 55px; 
+    margin-left: 320px;
+ 
+}
+.about :hover{
+    border:0.5px  solid #ff6700;
+    border-radius: 5px;
+    height: 28px;
+}   
+
+.A{
+text-decoration: none;
+font-size: larger;
+font-weight: 600;
+margin-top: 8px;
+color: white;
+
+
+}
+
+
+.logo{
+    font-size: larger;
+    font-weight: 600;
+    color: #ff6700;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    margin-left: 50px;
+    
+
+}
+
+.butten{
+    font-size: larger;
+    margin-top: 7px;
+    margin-right: 25px;
+    margin-left: 320px;
+    
+
+}
+.B{
+    border-radius: 30px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #ff6700;
+    height: 35px;
+}
+
+.full{
+    padding: 60px;
+   
+}
+
+.titli{
+    color: #ff6700;
+}
+.name{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+.name1{
+    color: #ff6700;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.scorll{
+    height: 400px;
+    width: 450px;
+    border: 2px solid #ff6700;
+    font-size: larger;
+    border-radius: 15px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;      /* Firefox */
+  -ms-overflow-style: none;
+      scrollbar-width: none;
+      z-index: 41;
+      position:absolute;
+
+    /* IE / old Edge */
+    -ms-overflow-style: none;
+}
+
+/* Chrome, Edge, Safari */
+.scorll::-webkit-scrollbar {
+    display: none;
+}
+
+
+.diss{
+    padding: 5px;
+    margin-left: 5px;
+    color: white;
+}
+
+.full{
+    background-color: #0d1b2a;
+}
+
+
+
+
+.circle {
+  width: 450px;
+  height: 450px;
+  border: 3px dashed rgb(32, 174, 236);
+  border-radius: 50%;
+  position: relative;
+  margin-left: 40px;
+  background-size: cover;
+  left: 54.5%;
+   background-image: url("./selection1/gautam11.png");
+    background-size: cover;
+  background-position: center;
+
+  z-index: 50;
+}
+
+.logo3 {
+  width: 40px;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+
+  transform: translateX(-50%);
+  animation: move 9s linear infinite;
+  transform-origin: 50% 245px;
+}
+
+.l1 {
+  animation-delay: 0s;
+}
+
+.l2 {
+  animation-delay: -1.5s;
+}
+
+.l3 {
+  animation-delay: -3s;
+}
+
+.l4 {
+  animation-delay: -4.5s;
+}
+
+.l5 {
+  animation-delay: -6s;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(-50%) rotate(0deg);
+  }
+
+  to {
+    transform: translateX(-50%) rotate(360deg);
+  }
+}
+
+.circle2 {
+  width: 300px;
+  height: 300px;
+  border: 3px dashed rgb(32, 174, 236);
+  border-radius: 50%;
+  position: relative;
+  margin-left: 40px;
+  left: 60.5%;
+  top: -375px;
+  z-index: 49;
+}
+
+.logo4 {
+  width: 50px;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: move 7s linear infinite;
+  transform-origin: 50% 170px;
+}
+
+.m1 {
+  animation-delay: 0s;
+}
+
+.m2 {
+  animation-delay: -1s;
+}
+
+.m3 {
+  animation-delay: -3s;
+}
+
+.m4 {
+  animation-delay: -4s;
+}
+
+.m5 {
+  animation-delay: -5s;
+}
+
+.m6 {
+  animation-delay: -6s;
+}
+
+.m7 {
+  animation-delay: -7s;
+}
+
+
