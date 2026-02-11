@@ -7,6 +7,7 @@
     z-index: 99;
 }
 
+
 .about{
     display: flex;
     justify-content: space-between;
@@ -118,15 +119,14 @@ color: white;
 .circle {
   width: 450px;
   height: 450px;
-  border: 3px dashed rgb(32, 174, 236);
+  border: 3px dashed #ff6700;
   border-radius: 50%;
   position: relative;
   margin-left: 40px;
   background-size: cover;
   left: 54.5%;
    background-image: url("./selection1/gautam11.png");
-    background-size: cover;
-  background-position: center;
+   
 
   z-index: 50;
 }
@@ -175,7 +175,7 @@ color: white;
 .circle2 {
   width: 300px;
   height: 300px;
-  border: 3px dashed rgb(32, 174, 236);
+  border: 3px dashed #ff6700;
   border-radius: 50%;
   position: relative;
   margin-left: 40px;
@@ -221,5 +221,156 @@ color: white;
 .m7 {
   animation-delay: -7s;
 }
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+  /* ===== NAVBAR ===== */
+  .nevbar{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 10px;
+  }
+
+  .logo{
+    margin-left: 5px;
+    font-size: 18px;
+  }
+
+  .about{
+    gap: 15px;
+    margin-left: 20px;
+  }
+
+  .A{
+    font-size: 14px;
+  }
+
+  .butten{
+    margin-left: 20px;
+  }
+
+  .B{
+    font-size: 14px;
+    height: 30px;
+    padding: 0 12px;
+  }
+
+  /* ===== MAIN CONTENT ===== */
+  .full{
+    padding: 20px;
+    padding-top: 80px; /* navbar fixed hai */
+  }
+
+  .name{
+    font-size: 22px;
+    
+  }
+
+  .name1{
+    font-size: 26px;
+    text-align: center;
+  }
+
+  /* ===== SCROLL BOX ===== */
+  .scorll{
+    position: static;
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+  }
+
+  /* ===== CIRCLES ===== */
+  .circle{
+    width: 250px;
+    height: 250px;
+    margin: 30px auto;
+    left: 0;
+  }
+
+  .circle2{
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    left: 0;
+    top: -240px;
+  }
+
+  .logo3{
+    transform-origin: 50% 135px;
+    width: 30px;
+  }
+
+  .logo4{
+    transform-origin: 50% 95px;
+    width: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Phone me Desktop Site Mode ke liye */
+@media screen and (min-width: 900px) and (max-width: 1100px) {
+
+  .about{
+    margin-left: 220px;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .butten{
+    margin-left: 150px;
+  }
+
+  .circle{
+    left: 0;
+    margin: 50px auto;
+  }
+
+    .circle{
+    width: 350px;
+    height: 350px;
+    margin: 30px auto;
+    left: 250px;
+  }
+
+  .circle2{
+    width: 230px;
+    height: 230px;
+    margin: 0 auto;
+    left: 250px;
+    top: -330px;
+  }
+
+  .logo3{
+    transform-origin: 50% 195px;
+    width: 30px;
+  }
+
+  .logo4{
+    transform-origin: 50% 135px;
+    width: 30px;
+  }
+}
+
 
 
