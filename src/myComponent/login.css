@@ -225,6 +225,11 @@ color: white;
 
 
 
+/* Phone Mode ke liye */
+
+
+
+
 
 @media screen and (max-width: 600px) {
 
@@ -321,14 +326,7 @@ color: white;
 
 
 
-
-
-
-
-
-
-
-/* Phone me Desktop Site Mode ke liye */
+/*  Desktop Site Mode ke liye */
 @media screen and (min-width: 900px) and (max-width: 1100px) {
 
   .about{
