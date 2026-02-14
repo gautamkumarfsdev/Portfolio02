@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 .nevbar{
     display: flex;
     justify-content: space-between;
@@ -54,7 +60,7 @@ color: white;
 }
 .B{
     border-radius: 30px;
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(0, 0, 0);
     background-color: #ff6700;
     height: 35px;
@@ -62,6 +68,7 @@ color: white;
 
 .full{
     padding: 60px;
+    height: 520px;
    
 }
 
@@ -371,4 +378,79 @@ color: white;
 }
 
 
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
+
+.heading{
+  text-align: center;
+  background-color: #0d1b2a;
+  color: white;
+  height: 45px;
+  margin-top: 0;
+  font-size: larger;
+  margin: 0px;
+}
+.span1{
+  color: #ff6700;
+
+}
+
+
+.aboutMyJourney{
+   background-color: #0d1b2a;
+   position: relative;
+   z-index: 102;
+
+   
+}
+.aboutMyJourney2{
+  position: relative;
+   z-index: 103;
+   margin-top: -553px;
+   margin-left: 640px;
+}
+
+
+.workExperince{
+  background-color: #0d1b2a;
+  color: #ff6700;
+  margin-top: 0;
+  font-size: x-large;
+  font-weight: 600;
+  margin-left: 50px;
+}
+
+.box{
+  height: 500px;
+  width: 430px;
+  border: 1px solid lavender;
+  margin-left: 50px;
+  color: white;
+  background-color: #0d1b2a;
+   overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;      /* Firefox */
+  -ms-overflow-style: none;
+      z-index:101;
+      position:relative;
+      border-radius: 10px;
+
+    /* IE / old Edge */
+    
+}
+
+.span2{
+  color: #ff6700;
+  font-size: larger;
+  font-weight: 500;
+  
+  
+}
+
+.marzin{
+  margin: 10px;
+}
 

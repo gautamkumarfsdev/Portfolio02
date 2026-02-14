@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Login from './myComponent/login';
 import Bigbox from './myComponent/about';
+import AboutMyJourney from './myComponent/aboutMyJourney';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <App />
     <Login/>
     <Bigbox/>
+    <AboutMyJourney/>
     
   </React.StrictMode>
 );

@@ -21,7 +21,7 @@ function Bigbox() {
     <section className="section1">
      <div className="full">
 
-        <div className="titli"><p>Software Developer & Designer</p></div>
+        <div className="titli"><p>💻Software Developer & Designer</p></div>
         <div className="name">Hey! I'M <samp className="name1">Gautam Kumar</samp></div>
 
         <div className="scorll">
@@ -62,10 +62,7 @@ Technologies Used: HTML, CSS, JavaScript</p>
             <img src={cImg} className="logo4 m5" alt="C" />
             <img src={msImg} className="logo4 m6" alt="Microsoft" />
           </div>
-
-        
-          </div>
-          
+          </div>  
     </section>
     </>
 }
