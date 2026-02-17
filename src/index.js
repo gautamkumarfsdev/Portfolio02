@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Login from './myComponent/login';
 import Bigbox from './myComponent/about';
 import AboutMyJourney from './myComponent/aboutMyJourney';
+import Icons from "./myComponent/icons"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <Login/>
     <Bigbox/>
     <AboutMyJourney/>
+    <Icons/>
     
   </React.StrictMode>
 );

@@ -41,8 +41,10 @@ Description: Created a webpage that displays music and playlist suggestions base
 an engaging and user-friendly interface using HTML, CSS, and JavaScript, focusing on layout design, interactivity,
 and responsive visuals.
 Technologies Used: HTML, CSS, JavaScript</p>
+
             
         </div>
+        
 
          {/* BIG CIRCLE */}
           <div className="circle">
@@ -61,8 +63,16 @@ Technologies Used: HTML, CSS, JavaScript</p>
             <img src={javaImg} className="logo4 m4" alt="Java" />
             <img src={cImg} className="logo4 m5" alt="C" />
             <img src={msImg} className="logo4 m6" alt="Microsoft" />
+             <div className="x">
+          <button className="button">Check portfolio</button>
+          <button className="button2">Contect Me</button>
+        </div>
           </div>
+          
           </div>  
+
+          
+         
     </section>
     </>
 }
