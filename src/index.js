@@ -7,6 +7,11 @@ import Login from './myComponent/login';
 import Bigbox from './myComponent/about';
 import AboutMyJourney from './myComponent/aboutMyJourney';
 import Icons from "./myComponent/icons"
+import Project from "./myComponent/project"
+import Box from "./myComponent/project2"
+import Footer from "./myComponent/footer"
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +21,10 @@ root.render(
     <Bigbox/>
     <AboutMyJourney/>
     <Icons/>
+    <Project/>
+    <Box/>
+    <Footer/>
+    
     
   </React.StrictMode>
 );

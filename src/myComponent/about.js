@@ -7,6 +7,7 @@ import mongoImg from "./selection1/MOGODB.png";
 import expressImg from "./selection1/EXPRESS.png";
 import nodeImg from "./selection1/NODE.png";
 import python from "./selection1/PYTHON.png";
+import postman from "./tooles/Postman.png";
 
 import htmlImg from "./selection1/HTML.png";
 import cssImg from "./selection1/CSS.png";
@@ -22,7 +23,9 @@ function Bigbox() {
      <div className="full">
 
         <div className="titli"><p>💻Software Developer & Designer</p></div>
-        <div className="name">Hey! I'M <samp className="name1">Gautam Kumar</samp></div>
+        <div className="name">Hey! I'M 
+          <samp className="name1">Gautam Kumar</samp> 
+          </div>
 
         <div className="scorll">
             <p className="diss">A dedicated and quick-learning Computer Science Engineering student with hands-on experience in HTML, CSS, JavaScript, and React,  Express framework, MongoDB , Bootstrap  along with a solid understanding of Core Java, Python and C programming.   </p>  
@@ -53,6 +56,7 @@ Technologies Used: HTML, CSS, JavaScript</p>
             <img src={expressImg} className="logo3 l3" alt="Express" />
             <img src={nodeImg} className="logo3 l4" alt="Node" />
             <img src={python} className="logo3 l5" alt="Python" />
+            <img src={postman} className="logo3 l6" alt="postman" />
           </div>
 
           {/* SMALL CIRCLE */}
@@ -63,15 +67,41 @@ Technologies Used: HTML, CSS, JavaScript</p>
             <img src={javaImg} className="logo4 m4" alt="Java" />
             <img src={cImg} className="logo4 m5" alt="C" />
             <img src={msImg} className="logo4 m6" alt="Microsoft" />
+
+
              <div className="x">
           <button className="button">Check portfolio</button>
           <button className="button2">Contect Me</button>
         </div>
+
+
+   
+
+
+
+
+
+
+
           </div>
           
           </div>  
 
-          
+               <div className="scroller">
+  <div className="scroller-inner">
+    <div className="scroller-item">Hello I’m Gautam Kumar</div>
+    <div className="scroller-item">Welcome to my portfolio website</div>
+    <div className="scroller-item">Frontend Developer</div>
+
+    {/* duplicate */}
+    <div className="scroller-item">Hello I’m Gautam Kumar</div>
+    <div className="scroller-item">🚀 Welcome to my portfolio website</div>
+    <div className="scroller-item">🚀 Frontend Developer</div>
+    <div className="scroller-item">🚀 Back-end Developer</div>
+    <div className="scroller-item">🚀 💻Software Developer</div>
+    <div className="scroller-item">🚀 Webpage Deginer</div>
+  </div>
+</div>
          
     </section>
     </>
