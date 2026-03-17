@@ -10,8 +10,9 @@ function aboutMyJourney() {
             About My <span className="span1">Journey </span>
           </h1>
         </div>
+        <p className="workExperince1">💼 Work Experince</p>
         <div className="aboutMyJourney">
-          <p className="workExperince">💼 Work Experince</p>
+          
           <br></br>
           <div className="box">
             <p className="marzin">
@@ -102,11 +103,12 @@ function aboutMyJourney() {
               </ul>
             </p>
           </div>
+          
 
           <div className="aboutMyJourney2">
             <p className="workExperince">🌱 My Journey Philosophy</p>
             <br></br>
-            <div className="box">
+            <div className="box2">
               <p className="marzin">
                 <span className="span2">🚀DSA Java :</span>I believe in building
                 strong fundamentals and improving every day. Learning DSA is

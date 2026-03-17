@@ -39,6 +39,7 @@
   to {
     transform: translateX(-50%);
   }
+ 
 }
 
 /* default: animation chalti rahe */
@@ -112,72 +113,58 @@
 }
 
 
-
 .nevbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #0b132b;
     height: 45px;
     position: fixed;
+    width: 100%;
+    padding: 0 40px;
     z-index: 999;
 }
 
-
 .about{
     display: flex;
-    justify-content: space-between;
-    gap: 55px; 
-    margin-left: 320px;
- 
+    gap: 40px;
 }
-.about :hover{
-    border:0.5px  solid #ff6700;
+
+.about a:hover{
+    border: 0.5px solid #ff6700;
     border-radius: 5px;
-    height: 28px;
-}   
+    padding: 3px 8px;
+}
 
 .A{
-text-decoration: none;
-font-size: larger;
-font-weight: 600;
-margin-top: 8px;
-color: white;
-
-
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+    color: white;
 }
-
 
 .logo{
     font-size: larger;
     font-weight: 600;
     color: #ff6700;
-    margin-left: 15px;
-    margin-bottom: 5px;
     text-decoration: none;
-    margin-left: 50px;
-    
-
 }
 
-.butten{
-    font-size: larger;
-    margin-top: 7px;
-    margin-right: 25px;
-    margin-left: 320px;
-    
 
-}
+
 .B{
     border-radius: 30px;
     font-size: 18px;
-    color: rgb(0, 0, 0);
+    color: black;
     background-color: #ff6700;
     height: 35px;
+    padding: 5px 15px;
 }
 
 .full{
     padding: 50px;
     height: 520px;
+    width: auto;
    
 }
 
@@ -202,31 +189,33 @@ color: white;
 
 
 .x{
-  gap: 2px;
-  position: relative;
-}
-.button2{
-  color:#ff6700;
-  font-size: larger;
-  height: 35px;
-  width: 180px;
-  border-radius: 8px;
+  display: flex;
+  gap: 25px;
   margin-top: 300px;
-  background-color: #0d1b2a;
-  margin-left: 25px;
-  
- 
-
+   justify-content: start;/* agar zarurat ho */
 }
+
 .button{
   background-color:#ff6700;
   color: white;
   font-size: larger;
-  height: 35px;
+  height: 40px;
   width: 180px;
   border-radius: 8px;
-  margin-top: 300px;
-  margin-left: -720px;
+  border: none;
+  cursor: pointer;
+  margin-left: -750px;
+}
+
+.button2{
+  color:#ff6700;
+  font-size: larger;
+  height: 40px;
+  width: 180px;
+  border-radius: 8px;
+  background-color: #0d1b2a;
+  border: 2px solid #ff6700;
+  cursor: pointer;
 }
 .scorll{
   margin-top: 50px;
@@ -242,6 +231,7 @@ color: white;
       scrollbar-width: none;
       z-index: 41;
       position:absolute;
+      cursor: pointer;
 
     /* IE / old Edge */
     -ms-overflow-style: none;
@@ -393,6 +383,7 @@ color: white;
     align-items: center;
     height: 50px;
     padding: 0 10px;
+    width: auto;
   }
 
   .logo{
@@ -535,7 +526,7 @@ color: white;
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 
-
+/*
 .heading{
   text-align: center;
   background-color: #0d1b2a;
@@ -556,11 +547,16 @@ color: white;
    position: relative;
    z-index: 102;
    height: auto;
+   width: 100%;
 
    
 }
+.full1{
+  width: 100%;
+}
 .aboutMyJourney2{
   position: relative;
+  width: 100%;
    z-index: 103;
    margin-top: -553px;
    margin-left: 640px;
@@ -585,14 +581,27 @@ color: white;
   background-color: #0d1b2a;
    overflow-y: scroll;
     overflow-x: hidden;
-    scrollbar-width: none;      /* Firefox */
-  -ms-overflow-style: none;
+    scrollbar-width: none;       -ms-overflow-style: none;
       z-index:101;
       position:relative;
       border-radius: 10px;
-
-    /* IE / old Edge */
-    
+ 
+}
+.box2{
+  height: 500px;
+  width: 430px;
+  border: 1px solid lavender;
+  margin-left: 50px;
+  color: white;
+  background-color: #0d1b2a;
+   overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;       
+    -ms-overflow-style: none;
+      z-index:102;
+      position:relative;
+      border-radius: 10px;
+ 
 }
 
 .span2{
@@ -608,11 +617,126 @@ color: white;
 }
 
 
+*/
+.workExperince1{
+  margin-left: 75px;
+  color: #ff6700;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 45px;
+  
 
+}
+
+.full1{
+  width: 100%;
+
+  background-color:#0d1b2a;
+}
+
+/* ===== HEADING ===== */
+.heading{
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.heading h1{
+  font-size: 34px;
+}
+
+.span1{
+  color: #ff6700;
+}
+
+/* ===== FLEX CONTAINER ===== */
+.aboutMyJourney{
+  display: flex;
+ 
+  align-items: flex-start;
+  gap: 40px;
+  max-width: auto;
+  margin: auto;
+}
+
+/* ===== LEFT + RIGHT SECTION ===== */
+.aboutMyJourney > div{
+  flex: 1;
+  min-width: 0; /* overflow fix */
+}
+
+/* ===== TITLES ===== */
+.workExperince{
+  color: #ff6700;
+  font-size: 22px;
+  font-weight: 600;
+  
+}
+
+/* ===== BOXES ===== */
+.box,
+.box2{
+  width:90%;
+  height: 500px;
+  overflow-y: auto;
+  padding: 20px;
+  border-radius: 15px;
+   background-color:#0d1b2a;
+  color: white;
+
+  /* smooth shadow */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+
+  /* scrollbar hide */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.box::-webkit-scrollbar,
+.box2::-webkit-scrollbar{
+  display: none;
+}
+
+/* ===== CONTENT ===== */
+.marzin{
+  margin-bottom: 20px;
+}
+
+.span2{
+  color: #ff6700;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* ===== LIST ===== */
+ul{
+  padding-left: 18px;
+  margin-top: 8px;
+}
+
+li{
+  margin-bottom: 6px;
+  color: #cbd5e1;
+}
+
+/* ===== TEXT ===== */
+p{
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+/* ===== HOVER EFFECT ===== */
+.box:hover,
+.box2:hover{
+  transform: translateY(-8px);
+  transition: 0.3s ease;
+  box-shadow: 0 20px 50px rgba(255,103,0,0.2);
+}
 
 /*phone ke liye */ 
 
-
+/*
 
 @media (max-width: 768px) {
 
@@ -652,12 +776,12 @@ color: white;
     padding: 10px;
        overflow-y: scroll;
     overflow-x: hidden;
-    scrollbar-width: none;      /* Firefox */
-  -ms-overflow-style: none;    /* IE / Edge */
+    scrollbar-width: none;     
+  -ms-overflow-style: none;  
   }
 
   .box::-webkit-scrollbar{
-    display: none;               /* Chrome / Mobile */
+    display: none;              
   }
 
   .span2{
@@ -670,8 +794,24 @@ color: white;
 }
 
 
+*/
+@media (max-width: 768px){
 
+  .aboutMyJourney{
+    flex-direction: column; /* mobile me niche aayega */
+    align-items: center;
+  }
 
+  .box,
+  .box2{
+    height: auto;
+  }
+
+  .heading h1{
+    font-size: 26px;
+  }
+
+} 
 
 @media (max-width: 1200px) and (hover: none) and (pointer: coarse) {
 
@@ -735,7 +875,7 @@ color: white;
 }
 .full3{
    height: 500px;
-  width: 900px;
+  width: 78%;
   border: 1px solid lavender;
   margin-left: 150px;
   color: white;
@@ -760,7 +900,7 @@ color: white;
   margin: 10px;
   display: flex;
  flex-direction: row;
-
+justify-content: center;
   flex-wrap: wrap;          /* ✅ width zyada → item niche */
   gap: 20px;
 
@@ -812,6 +952,9 @@ color: white;
 
 @media (max-width: 768px) {
 
+  .full5{
+    height:auto;
+  }
   .full3 {
     width: 95%;              /* full width */
     height: 700px;            /* auto height */

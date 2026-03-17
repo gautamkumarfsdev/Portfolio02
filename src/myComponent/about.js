@@ -100,6 +100,8 @@ Technologies Used: HTML, CSS, JavaScript</p>
     <div className="scroller-item">🚀 Back-end Developer</div>
     <div className="scroller-item">🚀 💻Software Developer</div>
     <div className="scroller-item">🚀 Webpage Deginer</div>
+    <div className="scroller-item">🚀 💻Software Developer</div>
+    <div className="scroller-item">🚀 Webpage Deginer</div>
   </div>
 </div>
          
