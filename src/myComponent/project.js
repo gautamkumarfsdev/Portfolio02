@@ -1,8 +1,8 @@
 import React from "react";
 import "./login.css";
 
-import letest from "./projectphoto/comeingsoon.jpg"
-import portfolio from "./projectphoto/portfolio.png"
+//import letest from "./projectphoto/comeingsoon.jpg"
+//import portfolio from "./projectphoto/portfolio.png"
 
 function Project() {
     return (
